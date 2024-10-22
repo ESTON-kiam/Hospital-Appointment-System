@@ -13,6 +13,7 @@ if(isset($_POST['submit']))
    $mobilenum=$_POST['mobilenum'];
     $gender=$_POST['gender'];
 $details=$_POST['details'];
+$msg=$_POST['msg'];
  
      
     $query=mysqli_query($con, "insert into  tblcustomers(Name,Email,MobileNumber,Gender,Details) value('$name','$email','$mobilenum','$gender','$details')");
@@ -72,13 +73,12 @@ echo "<script>alert('Something Went Wrong. Please try again.');</script>";
 					<h3 class="title1">Add Client</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
-							<h4>Hospital Client:</h4>
+							<h4>Meru Doctors' Plaza Hospital Client:</h4>
 						</div>
 						<div class="form-body">
 							<form method="post">
-								<p style="font-size:16px; color:red" align="center"> <?php if($msg){
-    echo $msg;
-  }  ?> </p>
+								
+
 
   
 							 <div class="form-group"> <label for="exampleInputEmail1">Name</label> <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" value="" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Email</label> <input type="email" id="email" name="email" class="form-control" placeholder="Email" value="" required="true"> </div>

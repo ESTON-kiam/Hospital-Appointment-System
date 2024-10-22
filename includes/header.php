@@ -13,7 +13,7 @@
         <div class="clearfix"> </div>
       </div>
       <div class="header-right">
-        <div class="profile_details_left"><!--notifications of menu start -->
+        <div class="profile_details_left">
           <ul class="nofitications-dropdown">
             <?php
 $ret1=mysqli_query($con,"select ID,Name from  tblappointment where Status=''");
@@ -81,7 +81,7 @@ $name=$row['AdminName'];
                 </div>  
               </a>
               <ul class="dropdown-menu drp-mnu">
-                <li> <a href="change-password.php"><i class="fa fa-cog"></i> Settings</a> </li> 
+                <li> <a href="change-password.php"><i class="fa fa-cog"></i> Change Password</a> </li> 
                 <li> <a href="admin-profile.php"><i class="fa fa-user"></i> Profile</a> </li> 
                 <li> <a href="index.php"><i class="fa fa-sign-out"></i> Logout</a> </li>
               </ul>
