@@ -7,7 +7,7 @@
             <span>Panel</span>
           </a>
         </div>
-        <!--//logo-->
+     
        
        
         <div class="clearfix"> </div>
@@ -57,7 +57,7 @@ while($result=mysqli_fetch_array($ret1))
           </ul>
           <div class="clearfix"> </div>
         </div>
-        <!--notification menu end -->
+       
         <div class="profile_details">  
         <?php
 $adid=$_SESSION['ODABSaid'];

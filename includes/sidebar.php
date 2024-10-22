@@ -29,7 +29,7 @@
                   <a href="manage-services.php">Manage Services</a>
                 </li>
               </ul>
-              <!-- /nav-second-level -->
+              
             </li>
             
             <li>
@@ -65,7 +65,7 @@
                    
                     <li><a href="sales-reports.php">Sales Reports</a></li>
               </ul>
-              <!-- //nav-second-level -->
+            
             </li>
 
     <li>
@@ -81,7 +81,7 @@
 
           </ul>
           <div class="clearfix"> </div>
-          <!-- //sidebar-collapse -->
+         
         </nav>
       </div>
     </div>

@@ -12,42 +12,36 @@ if (strlen($_SESSION['ODABSaid']==0)) {
 <title>Meru | Admin Dashboard</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Bootstrap Core CSS -->
+
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom CSS -->
+
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- font CSS -->
-<!-- font-awesome icons -->
+
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
- <!-- js-->
+
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<!--webfonts-->
+
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<!--//webfonts--> 
-<!--animate-->
+
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 <script src="js/wow.min.js"></script>
 	<script>
 		 new WOW().init();
 	</script>
-<!--//end-animate-->
-<!-- chart -->
+
 <script src="js/Chart.js"></script>
-<!-- //chart -->
-<!--Calender-->
+>
 <link rel="stylesheet" href="css/clndr.css" type="text/css" />
 <script src="js/underscore-min.js" type="text/javascript"></script>
 <script src= "js/moment-2.2.1.js" type="text/javascript"></script>
 <script src="js/clndr.js" type="text/javascript"></script>
 <script src="js/site.js" type="text/javascript"></script>
-<!--End Calender-->
-<!-- Metis Menu -->
+
 <script src="js/metisMenu.min.js"></script>
 <script src="js/custom.js"></script>
 <link href="css/custom.css" rel="stylesheet">
-<!--//Metis Menu -->
+
 </head> 
 <body class="cbp-spmenu-push">
 
@@ -55,7 +49,7 @@ if (strlen($_SESSION['ODABSaid']==0)) {
 		 <?php include_once('includes/sidebar.php');?>
 		
 	<?php include_once('includes/header.php');?>
-		<!-- main content start-->
+		
 		<div id="page-wrapper" class="row calender widget-shadow">
 			<div class="main-page">
 				
@@ -136,7 +130,7 @@ $totalser=mysqli_num_rows($query5);
 					</div>
 					<div class="col-md-4 widget states-last">
 						<?php
-//todays sale
+
  $query6=mysqli_query($con,"select tblinvoice.ServiceId as ServiceId, tblservices.Cost
  from tblinvoice 
   join tblservices  on tblservices.ID=tblinvoice.ServiceId where date(PostingDate)=CURDATE();");
@@ -165,7 +159,7 @@ $todysale+=$todays_sale;
 					<div class="row-one">
 					<div class="col-md-4 widget">
 						<?php
-//Yesterday's sale
+
  $query7=mysqli_query($con,"select tblinvoice.ServiceId as ServiceId, tblservices.Cost
  from tblinvoice 
   join tblservices  on tblservices.ID=tblinvoice.ServiceId where date(PostingDate)=CURDATE()-1;");
@@ -187,7 +181,7 @@ $yesterdaysale+=$yesterdays_sale;
 					</div>
 					<div class="col-md-4 widget states-mdl">
 						<?php
-//Last Sevendays Sale
+
  $query8=mysqli_query($con,"select tblinvoice.ServiceId as ServiceId, tblservices.Cost
  from tblinvoice 
   join tblservices  on tblservices.ID=tblinvoice.ServiceId where date(PostingDate)>=(DATE(NOW()) - INTERVAL 7 DAY);");
@@ -209,7 +203,7 @@ $tseven+=$sevendays_sale;
 					</div>
 					<div class="col-md-4 widget states-last">
 						<?php
-//Total Sale
+
  $query9=mysqli_query($con,"select tblinvoice.ServiceId as ServiceId, tblservices.Cost
  from tblinvoice 
   join tblservices  on tblservices.ID=tblinvoice.ServiceId");
@@ -237,11 +231,11 @@ $totalsale+=$total_sale;
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-		<!--footer-->
+		
 		<?php include_once('includes/footer.php');?>
-        <!--//footer-->
+       
 	</div>
-	<!-- Classie -->
+	
 		<script src="js/classie.js"></script>
 		<script>
 			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
@@ -262,12 +256,11 @@ $totalsale+=$total_sale;
 				}
 			}
 		</script>
-	<!--scrolling js-->
+	
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/scripts.js"></script>
-	<!--//scrolling js-->
-	<!-- Bootstrap Core JavaScript -->
+
    <script src="js/bootstrap.js"> </script>
-<!--//Download more free projects at www.mayurik.com-->
+
 </body>
 </html>
