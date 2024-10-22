@@ -13,7 +13,7 @@
 </style>
 
 <div class="footer">
-       <p>&copy; 2021 Appoinment Booking System. Developed by : <a target="_blank" href="">Eston</a>
+       <p>&copy; 2024 Appoinment Booking System. Developed by : <a target="_blank" href="">Eston</a>
 </p>
     </div>
        

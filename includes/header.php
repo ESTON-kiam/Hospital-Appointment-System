@@ -2,7 +2,7 @@
       <div class="header-left">
         
         <div class="logo">
-          <a href="index.html">
+          <a href="dashboard.php">
             <h1>Meru Doc</h1>
             <span>Panel</span>
           </a>

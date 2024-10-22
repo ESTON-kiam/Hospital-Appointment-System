@@ -49,7 +49,7 @@
                   <a href="rejected-appointment.php">Rejected Appointment</a>
                 </li>
               </ul>
-              <!-- //nav-second-level -->
+            
             </li>
            
   <li>

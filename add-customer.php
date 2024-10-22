@@ -73,7 +73,8 @@ echo "<script>alert('Something Went Wrong. Please try again.');</script>";
 					<h3 class="title1">Add Client</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
-							<h4>Meru Doctors' Plaza Hospital Client:</h4>
+							<h4>Meru Doctors' Plaza 
+								Hospital Client:</h4>
 						</div>
 						<div class="form-body">
 							<form method="post">

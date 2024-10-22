@@ -66,11 +66,9 @@ $_SESSION['aptno']=$result['AptNumber'];
 	<div class="main-content">
 		<!--left-fixed -navigation-->
 		 <?php include_once('includes/sidebar.php');?>
-		<!--left-fixed -navigation-->
-		<!-- header-starts -->
+		
 		 <?php include_once('includes/header.php');?>
-		<!-- //header-ends -->
-		<!-- main content start-->
+		
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
@@ -106,12 +104,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 
 			              </div>
 			           
-				         <!--    <div class="col-sm-12">
-			                <div class="form-group">
-					              <div class="select-wrap">
-		                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-		                      <select name="services" id="services" required="true" class="form-control">
-		                      	<option value="">Select Services</option>
+				         
 		                      	<?php $query=mysqli_query($con,"select * from tblservices");
               while($row=mysqli_fetch_array($query))
               {
@@ -121,7 +114,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 		                      </select>
 		                    </div>
 					            </div>
-			              </div> -->
+			              </div> 
 			              <div class="col-sm-12">
 			                <div class="form-group">
 			                  <input type="text" class="form-control appointment_date" placeholder="Date" name="adate" id='adate' required="true">

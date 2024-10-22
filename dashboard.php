@@ -12,7 +12,7 @@ if (strlen($_SESSION['ODABSaid']==0)) {
 <title>Meru | Admin Dashboard</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Bootstrap Core CSS -->
+
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -149,9 +149,9 @@ $cnt=$cnt+1;
 				<div class="clearfix"> </div>
 			</div>
 		
-		<!--footer-->
+	
 		<?php include_once('includes/footer.php');?>
-        <!--//footer-->
+       
 	</div>
 	<!-- Classie -->
 		<script src="js/classie.js"></script>
@@ -180,6 +180,5 @@ $cnt=$cnt+1;
 	<!--//scrolling js-->
 	<!-- Bootstrap Core JavaScript -->
    <script src="js/bootstrap.js"> </script>
-<!--//Download more free projects at www.mayurik.com-->
 </body>
 </html>
