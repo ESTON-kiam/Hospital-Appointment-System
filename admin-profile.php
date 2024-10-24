@@ -114,7 +114,7 @@ while ($row=mysqli_fetch_array($ret)) {
 	
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/scripts.js"></script>
-	>
+	
    <script src="js/bootstrap.js"> </script>
 
 </body>
